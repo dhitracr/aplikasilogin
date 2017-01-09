@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lin_input">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:contentDescription="@null"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/namalengkap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Full Name :" />
+
+    <EditText
+        android:id="@+id/innamalengkap"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/namalengkap"
+        android:layout_marginBottom="10dp"
+        android:hint="Full Name" />
+
+
+        <TextView
+            android:id="@+id/namapang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="Nick Name :" />
+
+        <EditText
+            android:id="@+id/innamapang"
+            android:layout_width="290dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/namapang"
+            android:layout_marginBottom="10dp"
+            android:hint="Nick Name" />
+
+
+    <TextView
+        android:id="@+id/alamat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Address :" />
+
+    <EditText
+        android:id="@+id/inalamat"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/alamat"
+        android:layout_marginBottom="10dp"
+        android:hint="Address" />
+
+    <TextView
+        android:id="@+id/agama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Religion :" />
+
+    <EditText
+        android:id="@+id/inagama"
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/agama"
+        android:layout_marginBottom="10dp"
+        android:hint="Religion" />
+
+    <TextView
+        android:id="@+id/hobi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Hobby :" />
+
+    <EditText
+        android:id="@+id/inhobi"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hobi"
+        android:layout_marginBottom="10dp"
+        android:hint="Hobby" />
+
+    <Button
+        android:layout_width="90dp"
+        android:layout_height="30dp"
+        android:layout_margin="5dp"
+        android:text="Submit"
+        android:background="@drawable/button3"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

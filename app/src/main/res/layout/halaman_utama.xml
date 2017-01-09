@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lin_halaman"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:contentDescription="@null"
+        android:src="@drawable/logo"
+        android:layout_weight="0.17" />
+
+    <LinearLayout
+        android:id="@+id/lin_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button1"
+            android:onClick="Input"
+            android:text="INPUT DATA"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button2"
+            android:onClick="Tampil"
+            android:text="TAMPILKAN DATA"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button3"
+            android:onClick="Lokasi"
+            android:text="LOKASI"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/button4"
+            android:onClick="Logout"
+            android:text="LOGOUT"
+            android:textColor="#FFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

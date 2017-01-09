@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:contentDescription="@null"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/nama_textView"
+        android:textSize="15sp"
+        android:text="">
+
+    </TextView>
+
+     <TextView
+         android:layout_height="wrap_content"
+         android:layout_width="wrap_content"
+         android:id="@+id/namapang_textView"
+         android:textSize="15sp"
+         android:text="">
+
+     </TextView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/alamat_textView"
+        android:textSize="15sp"
+        android:text="">
+
+   </TextView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/agama_textView"
+        android:textSize="15sp"
+        android:text="">
+
+    </TextView>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/hobi_textView"
+        android:textSize="15sp"
+        android:text="">
+
+    </TextView>
+
+   <Button
+       android:id="@+id/kembali"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:gravity="center"
+       android:text="Kembali"
+       android:layout_gravity="center_horizontal" />
+
+   </LinearLayout>
